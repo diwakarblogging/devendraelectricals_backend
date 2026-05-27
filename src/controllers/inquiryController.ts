@@ -84,7 +84,7 @@ export const createInquiry = async (req: Request, res: Response): Promise<void> 
       await Product.findByIdAndUpdate(productId, { $inc: { inquiryCount: 1 } });
     }
 
-    await sendInquiryNotification({ name, email, phone, message, productName });
+    // sendInquiryNotification({ name, email, phone, message, productName }).catch(console.error);
 
     res.status(201).json({ success: true, data: inquiry });
   } catch (error) {
