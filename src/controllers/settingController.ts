@@ -2,8 +2,8 @@ import { Request, Response } from 'express';
 import Setting from '../models/Setting';
 
 const DEFAULTS: Record<string, string> = {
-  whatsappNumber: '+919876543210',
-  phoneNumber: '+91-9876543210',
+  whatsappNumber: '+918933839092',
+  phoneNumber: '+91-9140531742',
   shopAddress: '81/1, main road, near bank of baroda, barra-2, Barra, kanpur nagar, Kanpur, Uttar Pradesh 208027',
   shopEmail: 'info@devendraelectricals.com',
 };
