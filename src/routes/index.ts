@@ -7,6 +7,7 @@ import uploadRoutes from './uploadRoutes';
 import bannerRoutes from './bannerRoutes';
 import testimonialRoutes from './testimonialRoutes';
 import dashboardRoutes from './dashboardRoutes';
+import settingRoutes from './settingRoutes';
 
 const router = Router();
 
@@ -18,5 +19,6 @@ router.use('/upload', uploadRoutes);
 router.use('/banners', bannerRoutes);
 router.use('/testimonials', testimonialRoutes);
 router.use('/dashboard', dashboardRoutes);
+router.use('/settings', settingRoutes);
 
 export default router;
